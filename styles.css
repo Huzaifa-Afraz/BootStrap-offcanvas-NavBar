@@ -1,0 +1,29 @@
+/* =========== GOOGLE FONTS =========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+.offcanvas-start{
+    width: auto !important;
+}
+
+@media screen and (width<=992px) {
+
+.offcanvas-start{
+    width: 400px !important;
+}
+
+
+}
+
+/* =========== SECTION ============  */
